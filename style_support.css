@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(135, 167, 167);
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 280%;
+}
+
+.grid-container{
+    height: 297mm;
+    width: 210mm;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+h2,h3{
+    color: rgb(73, 132, 155);
+    font-size: 130%;
+}
+
+
+
+.name{
+    grid-column: 1 / 8;
+    padding: 20px 40px;
+    grid-column: 1/8;
+    background-color: rgb(73, 132, 155);
+    color: rgb(222, 231, 235);
+}
+
+.name a{
+    text-decoration: none;
+    color: rgb(222, 231, 235);
+    font-size: large;
+}
+
+.work{
+    grid-column: 1 / 4;
+    padding: 30px 40px;
+    background-color: rgb(215, 243, 255);
+}
+
+.about{
+    grid-column: 4 / 8;
+    background-color: rgb(222, 231, 235);
+    text-align: justify;
+    padding: 30px 40px;
+}
+
+.edu{
+    grid-column: 1 /4;
+    padding: 0px 40px;
+    background-color: rgb(215, 243, 255);
+}
+
+.skill{
+    grid-column: 4/ 8;
+    background-color: rgb(222, 231, 235);
+    padding: 0px 40px;
+}
+
+.hobbies{
+    grid-column: 1/ 4;
+    padding: 0px 40px;
+    background-color: rgb(215, 243, 255);
+}
+
+.blank{
+    grid-column: 4 / 8;
+    background-color: rgb(222, 231, 235);
+}
